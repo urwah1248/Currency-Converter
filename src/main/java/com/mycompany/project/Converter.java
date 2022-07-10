@@ -25,9 +25,9 @@ public class Converter extends javax.swing.JFrame {
     Statement stmt;
 
     public void Connect() {
-        String url = "jdbc:mysql://localhost:3306/currencyconverter";
-        String username = "root";
-        String password = "";
+        String url = "jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11505382";
+        String username = "sql11505382";
+        String password = "gmbMwnGKDC";
         try {
             connection = DriverManager.getConnection(url, username, password);
             System.out.println("EZ");
